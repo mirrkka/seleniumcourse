@@ -2,17 +2,18 @@ import pytest
 import os
 import time
 from selenium import webdriver
+from driver_fixture import *
 
 
-@pytest.fixture()
-def driver(request):
-    wd = webdriver.Chrome(os.path.abspath(os.path.join(os.path.dirname(__file__), 'drivers\\chromedriver.exe')))
-
-    def resource_teardown():
-        wd.quit()
-    request.addfinalizer(resource_teardown)
-
-    return wd
+#@pytest.fixture()
+#def driver(request):
+#    wd = webdriver.Chrome(os.path.abspath(os.path.join(os.path.dirname(__file__), 'drivers\\chromedriver.exe')))
+#
+#    def resource_teardown():
+#        wd.quit()
+#    request.addfinalizer(resource_teardown)
+#
+#    return wd
 
 
 def login(driver):
