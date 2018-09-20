@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88e45fda-631d-4adc-85a4-1597be78796e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/python_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/litecart.py" beforeDir="false" afterPath="$PROJECT_DIR$/litecart.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,8 +39,8 @@
       <file leaf-file-name="litecart.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/litecart.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="80" selection-start-line="12" selection-start-column="80" selection-end-line="12" selection-end-column="80" />
+            <state relative-caret-position="238">
+              <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -118,7 +118,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test for litecart.test_login">
+  <component name="RunManager" selected="Python tests.py.test in litecart.py">
     <configuration name="py.test for litecart.test_login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="seleniumcourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -147,6 +147,20 @@
       <option name="_new_target" value="&quot;python_example.test_login&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
+    <configuration name="py.test in litecart.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="seleniumcourse" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/litecart.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
     <configuration name="py.test in python_example.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="seleniumcourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -165,9 +179,11 @@
       <item itemvalue="Python tests.py.test in python_example.py" />
       <item itemvalue="Python tests.py.test for python_example.test_login" />
       <item itemvalue="Python tests.py.test for litecart.test_login" />
+      <item itemvalue="Python tests.py.test in litecart.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.py.test in litecart.py" />
         <item itemvalue="Python tests.py.test for litecart.test_login" />
         <item itemvalue="Python tests.py.test in python_example.py" />
         <item itemvalue="Python tests.py.test for python_example.test_login" />
@@ -188,9 +204,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_python_example_py - 2018.09.20 at 11h 55m 09s.xml">
-      <configuration name="py.test in python_example.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="py_test_in_python_example_py - 2018.09.20 at 11h 57m 30s.xml">
       <configuration name="py.test in python_example.py" configurationId="tests" />
     </history-entry>
@@ -210,6 +223,15 @@
       <configuration name="py.test in python_example.py" configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_for_litecart_test_login - 2018.09.20 at 16h 32m 35s.xml">
+      <configuration name="py.test for litecart.test_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_litecart_test_login - 2018.09.20 at 16h 35m 19s.xml">
+      <configuration name="py.test for litecart.test_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_litecart_test_login - 2018.09.20 at 16h 36m 15s.xml">
+      <configuration name="py.test for litecart.test_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_litecart_test_login - 2018.09.20 at 16h 37m 03s.xml">
       <configuration name="py.test for litecart.test_login" configurationId="tests" />
     </history-entry>
   </component>
@@ -291,8 +313,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/litecart.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="80" selection-start-line="12" selection-start-column="80" selection-end-line="12" selection-end-column="80" />
+        <state relative-caret-position="238">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
