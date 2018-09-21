@@ -2,11 +2,13 @@ import os
 import pytest
 from selenium import webdriver
 import time
+from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
+from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
 
 @pytest.fixture()
 def driver(request):
-    wd = webdriver.Firefox(r'C:\\Users\\a.ryzhkova\\PycharmProjects\\seleniumcourse\\drivers\\geckodriver.exe')
+    wd = webdriver.Firefox()
 
     def resource_teardown():
         wd.quit()
