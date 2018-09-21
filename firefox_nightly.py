@@ -7,7 +7,7 @@ from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
 firefox_capabilities = DesiredCapabilities.FIREFOX
 firefox_capabilities['marionette'] = True
-firefox_capabilities['binary'] = 'C:\firefox\Firefox Setup 60.2.0esr.exe'
+firefox_capabilities['binary'] = 'C:\firefox\Firefox Installer.ru.exe'
 
 
 @pytest.fixture()
