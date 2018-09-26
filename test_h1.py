@@ -12,7 +12,9 @@ def login(driver):
     driver.find_element_by_xpath("//input[@name='username']").send_keys("admin")
     driver.find_element_by_xpath("//input[@name='password']").send_keys("admin")
     driver.find_element_by_xpath("//button[@name='login']").click()
-    #driver.quit()
+
+def quit(driver):
+    driver.quit()
 
 
 def test_h1(driver):
@@ -24,6 +26,7 @@ def test_h1(driver):
         menu = driver.find_elements_by_xpath("//*[@id='app-']/a/span[2]")
         menu[i].click()
         submenu = driver.find_elements_by_xpath("//ul[@class='docs']//li//span")
+        print(str(len(submenu)))
 
         if len(submenu) <1:
             assert len(driver.find_elements_by_tag_name('h1')) > 0
@@ -33,6 +36,8 @@ def test_h1(driver):
                 submenu = driver.find_elements_by_xpath("//ul[@class='docs']//li//span")
                 submenu[j].click()
                 assert len(driver.find_elements_by_tag_name('h1')) > 0
+
+    quit(driver)
 
 
 
