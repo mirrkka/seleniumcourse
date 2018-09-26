@@ -24,7 +24,6 @@ def test_h1(driver):
         menu = driver.find_elements_by_xpath("//*[@id='app-']/a/span[2]")
         menu[i].click()
         submenu = driver.find_elements_by_xpath("//ul[@class='docs']//li//span")
-        print("Submanu:" + str(len(submenu)))
 
         if len(submenu) <1:
             assert len(driver.find_elements_by_tag_name('h1')) > 0
@@ -34,6 +33,7 @@ def test_h1(driver):
                 submenu = driver.find_elements_by_xpath("//ul[@class='docs']//li//span")
                 submenu[j].click()
                 assert len(driver.find_elements_by_tag_name('h1')) > 0
+
 
 
 

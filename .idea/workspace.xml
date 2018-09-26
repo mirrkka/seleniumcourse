@@ -52,8 +52,8 @@
       <file leaf-file-name="test_h1.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_h1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+            <state relative-caret-position="238">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -287,24 +287,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_test_h1_py - 2018.09.26 at 18h 30m 49s.xml">
-      <configuration name="py.test in test_h1.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_h1_py - 2018.09.26 at 18h 31m 04s.xml">
-      <configuration name="py.test in test_h1.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_h1_py - 2018.09.26 at 18h 31m 33s.xml">
-      <configuration name="py.test in test_h1.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_test_h1_test_h1 - 2018.09.26 at 18h 31m 45s.xml">
-      <configuration name="py.test for test_h1.test_h1" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_test_h1_test_h1 - 2018.09.26 at 18h 32m 01s.xml">
-      <configuration name="py.test for test_h1.test_h1" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_h1_py - 2018.09.26 at 18h 32m 15s.xml">
-      <configuration name="py.test in test_h1.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="py_test_for_test_h1_test_h1 - 2018.09.26 at 18h 34m 45s.xml">
       <configuration name="py.test for test_h1.test_h1" configurationId="tests" />
     </history-entry>
@@ -315,6 +297,24 @@
       <configuration name="py.test for test_h1.test_h1" configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_for_test_h1_test_h1 - 2018.09.26 at 18h 37m 16s.xml">
+      <configuration name="py.test for test_h1.test_h1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_h1_py - 2018.09.26 at 18h 49m 58s.xml">
+      <configuration name="py.test in test_h1.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_h1_py - 2018.09.26 at 18h 50m 27s.xml">
+      <configuration name="py.test in test_h1.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_h1_test_h1 - 2018.09.26 at 18h 50m 37s.xml">
+      <configuration name="py.test for test_h1.test_h1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_h1_py - 2018.09.26 at 18h 51m 10s.xml">
+      <configuration name="py.test in test_h1.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_h1_py - 2018.09.26 at 18h 51m 24s.xml">
+      <configuration name="py.test in test_h1.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_h1_test_h1 - 2018.09.26 at 18h 51m 41s.xml">
       <configuration name="py.test for test_h1.test_h1" configurationId="tests" />
     </history-entry>
   </component>
@@ -772,8 +772,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_h1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+        <state relative-caret-position="238">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
