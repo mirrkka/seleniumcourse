@@ -12,10 +12,8 @@ def login(driver):
     #driver.quit()
 
 
-def test_login(driver):
+def test_h1(driver):
     login(driver)
-
-def test_h1_catalog(driver):
     driver.find_element_by_xpath("//span[text()='Appearence']").click()
     driver.find_element_by_xpath("//li[@id='doc-template']").click()
     assert len(driver.find_elements_by_tag_name('h1')) > 0
@@ -75,8 +73,9 @@ def test_h1_catalog(driver):
 
     driver.find_element_by_xpath("//li[@id='doc-quantity_units']").click()
     assert len(driver.find_elements_by_tag_name('h1')) > 0
+    time.sleep(1)
 
-def test_h1_other(driver):
+
     driver.find_element_by_xpath("//span[text()='Countries']").click()
     assert len(driver.find_elements_by_tag_name('h1')) > 0
 
@@ -109,8 +108,8 @@ def test_h1_other(driver):
     driver.find_element_by_xpath("//li[@id='doc-storage_encoding']").click()
     assert len(driver.find_elements_by_tag_name('h1')) > 0
 
+    time.sleep(1)
 
-def test_h1_modules(driver):
     driver.find_element_by_xpath("//span[text()='Modules']").click()
     assert len(driver.find_elements_by_tag_name('h1')) > 0
 
@@ -132,17 +131,18 @@ def test_h1_modules(driver):
     driver.find_element_by_xpath("//li[@id='doc-order_action']").click()
     assert len(driver.find_elements_by_tag_name('h1')) > 0
 
-def test_h1_orders(driver):
+    time.sleep(1)
+
     driver.find_element_by_xpath("//span[text()='Orders']").click()
     assert len(driver.find_elements_by_tag_name('h1')) > 0
 
     driver.find_element_by_xpath("//li[@id='doc-order_statuses']").click()
     assert len(driver.find_elements_by_tag_name('h1')) > 0
 
-def test_h1_another(driver):
+    time.sleep(1)
+
     driver.find_element_by_xpath("//span[text()='Pages']").click()
     assert len(driver.find_elements_by_tag_name('h1')) > 0
-
 
     time.sleep(1)
 
@@ -157,7 +157,6 @@ def test_h1_another(driver):
 
     time.sleep(1)
 
-def test_h1_settings(driver):
     driver.find_element_by_xpath("//span[text()='Settings']").click()
     assert len(driver.find_elements_by_tag_name('h1')) > 0
 
@@ -182,8 +181,6 @@ def test_h1_settings(driver):
     driver.find_element_by_xpath("//li[@id='doc-security']").click()
     assert len(driver.find_elements_by_tag_name('h1')) > 0
 
-
-def test_h1_rest(driver):
     driver.find_element_by_xpath("//span[text()='Slides']").click()
     assert len(driver.find_elements_by_tag_name('h1')) > 0
 
