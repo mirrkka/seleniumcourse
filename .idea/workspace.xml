@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88e45fda-631d-4adc-85a4-1597be78796e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/firefox_nightly.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_h1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firefox.py" beforeDir="false" afterPath="$PROJECT_DIR$/firefox.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firefox_nightly.py" beforeDir="false" afterPath="$PROJECT_DIR$/firefox_nightly.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,7 +18,7 @@
       <file leaf-file-name="python_example.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python_example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
+            <state relative-caret-position="-26">
               <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="113" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -30,8 +30,8 @@
       <file leaf-file-name="driver_fixture.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/driver_fixture.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="24" lean-forward="true" selection-start-line="5" selection-end-line="13" selection-end-column="24" />
+            <state relative-caret-position="85">
+              <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -42,8 +42,20 @@
       <file leaf-file-name="litecart.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/litecart.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="221">
+              <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_h1.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_h1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="207" column="55" selection-start-line="207" selection-start-column="55" selection-end-line="207" selection-end-column="55" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -54,8 +66,8 @@
       <file leaf-file-name="firefox.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/firefox.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+            <state relative-caret-position="170">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -63,13 +75,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="firefox_nightly.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="firefox_nightly.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/firefox_nightly.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+            <state relative-caret-position="170">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,8 +90,8 @@
       <file leaf-file-name="IE_driver.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IE_driver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+            <state relative-caret-position="85">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="77" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -108,10 +120,11 @@
         <option value="$PROJECT_DIR$/without_geckodriver.py" />
         <option value="$PROJECT_DIR$/firefox.py" />
         <option value="$PROJECT_DIR$/firefox_nightly.py" />
+        <option value="$PROJECT_DIR$/test_h1.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1600" />
@@ -122,6 +135,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -142,11 +156,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../firstSeleniumTest" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -161,8 +174,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in firefox_nightly.py">
-    <configuration name="py.test in IE_driver.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.py.test for test_h1.test_login">
+    <configuration name="py.test for test_h1.test_h1_catalog" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="seleniumcourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -173,10 +186,10 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/IE_driver.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_h1.test_h1_catalog&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="py.test in firefox_nightly.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="py.test for test_h1.test_h1_other" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="seleniumcourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -187,10 +200,10 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/firefox_nightly.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_h1.test_h1_other&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="py.test in firefox.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="py.test for test_h1.test_login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="seleniumcourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -201,8 +214,8 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/firefox.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_h1.test_login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration name="py.test in litecart.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="seleniumcourse" />
@@ -218,7 +231,7 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/litecart.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration name="py.test in without_geckodriver.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="py.test in test_h1.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="seleniumcourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -229,22 +242,22 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/without_geckodriver.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_h1.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
       <item itemvalue="Python tests.py.test in litecart.py" />
-      <item itemvalue="Python tests.py.test in firefox.py" />
-      <item itemvalue="Python tests.py.test in IE_driver.py" />
-      <item itemvalue="Python tests.py.test in without_geckodriver.py" />
-      <item itemvalue="Python tests.py.test in firefox_nightly.py" />
+      <item itemvalue="Python tests.py.test for test_h1.test_login" />
+      <item itemvalue="Python tests.py.test in test_h1.py" />
+      <item itemvalue="Python tests.py.test for test_h1.test_h1_catalog" />
+      <item itemvalue="Python tests.py.test for test_h1.test_h1_other" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.py.test in firefox_nightly.py" />
-        <item itemvalue="Python tests.py.test in firefox.py" />
-        <item itemvalue="Python tests.py.test in without_geckodriver.py" />
-        <item itemvalue="Python tests.py.test in IE_driver.py" />
+        <item itemvalue="Python tests.py.test for test_h1.test_login" />
+        <item itemvalue="Python tests.py.test for test_h1.test_h1_catalog" />
+        <item itemvalue="Python tests.py.test for test_h1.test_h1_other" />
+        <item itemvalue="Python tests.py.test in test_h1.py" />
         <item itemvalue="Python tests.py.test in litecart.py" />
       </list>
     </recent_temporary>
@@ -263,35 +276,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_firefox_py - 2018.09.21 at 18h 06m 22s.xml">
-      <configuration name="py.test in firefox.py" configurationId="tests" />
+    <history-entry file="py_test_in_litecart_py - 2018.09.25 at 17h 13m 51s.xml">
+      <configuration name="py.test in litecart.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_firefox_py - 2018.09.21 at 18h 09m 24s.xml">
-      <configuration name="py.test in firefox.py" configurationId="tests" />
+    <history-entry file="py_test_in_litecart_py - 2018.09.25 at 17h 15m 25s.xml">
+      <configuration name="py.test in litecart.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_firefox_py - 2018.09.21 at 18h 13m 16s.xml">
-      <configuration name="py.test in firefox.py" configurationId="tests" />
+    <history-entry file="py_test_for_test_h1_test_login - 2018.09.26 at 14h 12m 42s.xml">
+      <configuration name="py.test for test_h1.test_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_firefox_py - 2018.09.21 at 18h 21m 48s.xml">
-      <configuration name="py.test in firefox.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_h1_py - 2018.09.26 at 14h 13m 24s.xml">
+      <configuration name="py.test in test_h1.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_firefox_py - 2018.09.21 at 18h 24m 39s.xml">
-      <configuration name="py.test in firefox.py" configurationId="tests" />
+    <history-entry file="py_test_for_test_h1_test_h1_catalog - 2018.09.26 at 15h 10m 52s.xml">
+      <configuration name="py.test for test_h1.test_h1_catalog" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_firefox_py - 2018.09.21 at 18h 26m 29s.xml">
-      <configuration name="py.test in firefox.py" configurationId="tests" />
+    <history-entry file="py_test_for_test_h1_test_h1_catalog - 2018.09.26 at 15h 11m 03s.xml">
+      <configuration name="py.test for test_h1.test_h1_catalog" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_firefox_py - 2018.09.21 at 18h 26m 38s.xml">
-      <configuration name="py.test in firefox.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_h1_py - 2018.09.26 at 15h 12m 01s.xml">
+      <configuration name="py.test in test_h1.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_firefox_py - 2018.09.21 at 18h 32m 27s.xml">
-      <configuration name="py.test in firefox.py" configurationId="tests" />
+    <history-entry file="py_test_for_test_h1_test_h1_other - 2018.09.26 at 15h 16m 02s.xml">
+      <configuration name="py.test for test_h1.test_h1_other" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_firefox_py - 2018.09.21 at 18h 34m 11s.xml">
-      <configuration name="py.test in firefox.py" configurationId="tests" />
+    <history-entry file="py_test_for_test_h1_test_h1_catalog - 2018.09.26 at 15h 16m 38s.xml">
+      <configuration name="py.test for test_h1.test_h1_catalog" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_firefox_nightly_py - 2018.09.21 at 18h 40m 04s.xml">
-      <configuration name="py.test in firefox_nightly.py" configurationId="tests" />
+    <history-entry file="py_test_for_test_h1_test_login - 2018.09.26 at 15h 17m 08s.xml">
+      <configuration name="py.test for test_h1.test_login" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -301,13 +314,13 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20547946" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32972974" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32972974" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32972974" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -321,6 +334,186 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/python_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="113" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/driver_fixture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="92" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="92" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firefox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firefox_nightly.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IE_driver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="77" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/litecart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="113" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/driver_fixture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="24" selection-start-line="5" selection-end-line="13" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/litecart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firefox_nightly.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IE_driver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firefox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="113" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/driver_fixture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="5" selection-end-line="13" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/litecart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firefox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IE_driver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firefox_nightly.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/python_example.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -495,41 +688,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/litecart.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="113" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/without_geckodriver.py" />
     <entry file="file://$PROJECT_DIR$/IE_driver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/driver_fixture.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="24" lean-forward="true" selection-start-line="5" selection-end-line="13" selection-end-column="24" />
+        <state relative-caret-position="85">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="77" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -538,8 +701,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/firefox.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        <state relative-caret-position="170">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -548,10 +711,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/firefox_nightly.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="170">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/driver_fixture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/litecart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-26">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="113" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_h1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="207" column="55" selection-start-line="207" selection-start-column="55" selection-end-line="207" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>

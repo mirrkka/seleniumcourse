@@ -1,13 +1,14 @@
-import os
 import pytest
+import os
 from selenium import webdriver
 import time
+
 from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
 firefox_capabilities = DesiredCapabilities.FIREFOX
 firefox_capabilities['marionette'] = True
-firefox_capabilities['binary'] = 'C:\firefox\Firefox Installer.ru.exe'
+firefox_capabilities['binary'] = 'C:\Program Files\Firefox Nightly\firefox.exe'
 
 
 @pytest.fixture()
