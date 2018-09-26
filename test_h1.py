@@ -2,7 +2,10 @@ import pytest
 import time
 from selenium import webdriver
 from driver_fixture import *
-from selenium.common.exceptions import NoSuchElementException
+
+#1) входит в панель администратора http://localhost/litecart/admin
+#2) прокликивает последовательно все пункты меню слева, включая вложенные пункты
+#3) для каждой страницы проверяет наличие заголовка (то есть элемента с тегом h1)
 
 def login(driver):
     driver.get("http://localhost/litecart/admin/")
@@ -14,196 +17,27 @@ def login(driver):
 
 def test_h1(driver):
     login(driver)
-    driver.find_element_by_xpath("//span[text()='Appearence']").click()
-    driver.find_element_by_xpath("//li[@id='doc-template']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
+    menu = driver.find_elements_by_xpath("//li[@id='app-']")
+    print (str(len(menu)))
 
-    time.sleep(1)
+    for i in range(len(menu)):
+        menu = driver.find_elements_by_xpath("//*[@id='app-']/a/span[2]")
+        menu[i].click()
+        submenu = driver.find_elements_by_xpath("//ul[@class='docs']//li//span")
+        print("Submanu:" + str(len(submenu)))
 
-    driver.find_element_by_xpath("//li[@id='doc-logotype']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
+        if len(submenu) <1:
+            assert len(driver.find_elements_by_tag_name('h1')) > 0
 
-    time.sleep(1)
+        if len(submenu) >= 1:
+            for j in range(len(submenu)):
+                submenu = driver.find_elements_by_xpath("//ul[@class='docs']//li//span")
+                submenu[j].click()
+                assert len(driver.find_elements_by_tag_name('h1')) > 0
 
-    driver.find_element_by_xpath("//span[text()='Catalog']").click()
-    driver.find_element_by_xpath("//li[@id='doc-catalog']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
 
-    time.sleep(1)
 
-    driver.find_element_by_xpath("//li[@id='doc-product_groups']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
 
-    time.sleep(1)
-
-    driver.find_element_by_xpath("//li[@id='doc-option_groups']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
-
-    time.sleep(1)
-
-    driver.find_element_by_xpath("//li[@id='doc-manufacturers']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
-
-    time.sleep(1)
-
-    driver.find_element_by_xpath("//li[@id='doc-suppliers']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
-
-    time.sleep(1)
-
-    driver.find_element_by_xpath("//li[@id='doc-delivery_statuses']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
-
-    time.sleep(1)
-
-    driver.find_element_by_xpath("//li[@id='doc-sold_out_statuses']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
-
-    time.sleep(1)
-
-    driver.find_element_by_xpath("//li[@id='doc-quantity_units']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
-
-    time.sleep(1)
-
-    driver.find_element_by_xpath("//li[@id='doc-csv']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
-
-    time.sleep(1)
-
-    driver.find_element_by_xpath("//li[@id='doc-quantity_units']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
-    time.sleep(1)
-
-
-    driver.find_element_by_xpath("//span[text()='Countries']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
-
-    time.sleep(1)
-
-    driver.find_element_by_xpath("//span[text()='Currencies']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
-
-    time.sleep(1)
-
-    driver.find_element_by_xpath("//span[text()='Customers']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
-
-    driver.find_element_by_xpath("//li[@id='doc-csv']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
-
-    driver.find_element_by_xpath("//li[@id='doc-newsletter']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
-
-    time.sleep(1)
-
-    driver.find_element_by_xpath("//span[text()='Geo Zones']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
-
-    time.sleep(1)
-
-    driver.find_element_by_xpath("//span[text()='Languages']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
-
-    driver.find_element_by_xpath("//li[@id='doc-storage_encoding']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
-
-    time.sleep(1)
-
-    driver.find_element_by_xpath("//span[text()='Modules']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
-
-    driver.find_element_by_xpath("//li[@id='doc-customer']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
-
-    driver.find_element_by_xpath("//li[@id='doc-shipping']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
-
-    driver.find_element_by_xpath("//li[@id='doc-payment']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
-
-    driver.find_element_by_xpath("//li[@id='doc-order_total']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
-
-    driver.find_element_by_xpath("//li[@id='doc-order_success']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
-
-    driver.find_element_by_xpath("//li[@id='doc-order_action']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
-
-    time.sleep(1)
-
-    driver.find_element_by_xpath("//span[text()='Orders']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
-
-    driver.find_element_by_xpath("//li[@id='doc-order_statuses']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
-
-    time.sleep(1)
-
-    driver.find_element_by_xpath("//span[text()='Pages']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
-
-    time.sleep(1)
-
-    driver.find_element_by_xpath("//span[text()='Reports']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
-
-    driver.find_element_by_xpath("//li[@id='doc-most_sold_products']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
-
-    driver.find_element_by_xpath("//li[@id='doc-most_shopping_customers']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
-
-    time.sleep(1)
-
-    driver.find_element_by_xpath("//span[text()='Settings']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
-
-    driver.find_element_by_xpath("//li[@id='doc-defaults']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
-
-    driver.find_element_by_xpath("//li[@id='doc-general']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
-
-    driver.find_element_by_xpath("//li[@id='doc-listings']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
-
-    driver.find_element_by_xpath("//li[@id='doc-images']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
-
-    driver.find_element_by_xpath("//li[@id='doc-checkout']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
-
-    driver.find_element_by_xpath("//li[@id='doc-advanced']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
-
-    driver.find_element_by_xpath("//li[@id='doc-security']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
-
-    driver.find_element_by_xpath("//span[text()='Slides']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
-
-    driver.find_element_by_xpath("//span[text()='Tax']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
-
-    driver.find_element_by_xpath("//li[@id='doc-tax_rates']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
-
-    driver.find_element_by_xpath("//span[text()='Translations']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
-
-    driver.find_element_by_xpath("//li[@id='doc-scan']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
-
-    driver.find_element_by_xpath("//li[@id='doc-csv']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
-
-    driver.find_element_by_xpath("//span[text()='Users']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
-
-    driver.find_element_by_xpath("//span[text()='vQmods']").click()
-    assert len(driver.find_elements_by_tag_name('h1')) > 0
 
 
 
