@@ -29,13 +29,13 @@ def test_h1(driver):
         print(str(len(submenu)))
 
         if len(submenu) <1:
-            assert len(driver.find_elements_by_tag_name('h1')) > 0
+            assert len(driver.find_elements_by_tag_name('h1')) == 1
 
         if len(submenu) >= 1:
             for j in range(len(submenu)):
                 submenu = driver.find_elements_by_xpath("//ul[@class='docs']//li//span")
                 submenu[j].click()
-                assert len(driver.find_elements_by_tag_name('h1')) > 0
+                assert len(driver.find_elements_by_tag_name('h1')) == 1
 
     quit(driver)
 

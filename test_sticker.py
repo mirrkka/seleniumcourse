@@ -11,7 +11,7 @@ def test_sticker_on(driver):
     driver.get("http://localhost/litecart")
     time.sleep(3)
 
-    products = driver.find_elements_by_xpath("//li[@class='product column shadow hover-light']")
+    products = driver.find_elements_by_xpath("//div[@class='image-wrapper']")
     print("There are " + str(len(products)) + " ducks")
 
     for one in products:
