@@ -53,7 +53,7 @@ def test_sorted_geo_zones(driver):
     geo = driver.find_elements_by_xpath(".//*[@id='content']/form/table/tbody/tr[@class='row']/td [not(contains (@style,'text'))]/a")
     for zone in geo:
         print(zone.get_attribute('href'))
-        geolinks.append(zone.get_attribute('href')) # запоминаем ссылки в массив, селениум при переключении и обновлении не протухали ссылки
+        geolinks.append(zone.get_attribute('href')) # запоминаем ссылки в массив, чтобы при переключении и обновлении не протухали ссылки
         print(geolinks)
 
     for i in range(len(geolinks)):
