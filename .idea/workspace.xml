@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88e45fda-631d-4adc-85a4-1597be78796e" name="Default" comment="" />
+    <list default="true" id="88e45fda-631d-4adc-85a4-1597be78796e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/test_right_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_right_product.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -107,8 +109,8 @@
       <file leaf-file-name="test_right_product.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_right_product.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="78" column="66" selection-start-line="78" selection-start-column="66" selection-end-line="78" selection-end-column="66" />
+            <state relative-caret-position="408">
+              <caret line="114" column="15" lean-forward="true" selection-start-line="114" selection-start-column="15" selection-end-line="114" selection-end-column="15" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -308,35 +310,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_test_right_product_py - 2018.10.01 at 19h 19m 18s.xml">
+    <history-entry file="py_test_in_test_right_product_py - 2018.10.02 at 15h 47m 34s.xml">
       <configuration name="py.test in test_right_product.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_right_product_py - 2018.10.01 at 19h 19m 36s.xml">
+    <history-entry file="py_test_for_test_right_product_test_product - 2018.10.02 at 15h 50m 05s.xml">
+      <configuration name="py.test for test_right_product.test_product" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_right_product_test_product - 2018.10.02 at 15h 54m 04s.xml">
+      <configuration name="py.test for test_right_product.test_product" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_right_product_test_product - 2018.10.02 at 15h 58m 16s.xml">
+      <configuration name="py.test for test_right_product.test_product" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_right_product_test_product - 2018.10.02 at 16h 03m 43s.xml">
+      <configuration name="py.test for test_right_product.test_product" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_right_product_test_product - 2018.10.02 at 16h 06m 28s.xml">
+      <configuration name="py.test for test_right_product.test_product" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_right_product_test_product - 2018.10.02 at 16h 09m 12s.xml">
+      <configuration name="py.test for test_right_product.test_product" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_right_product_py - 2018.10.02 at 16h 13m 09s.xml">
       <configuration name="py.test in test_right_product.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_right_product_test_product - 2018.10.01 at 19h 20m 02s.xml">
-      <configuration name="py.test for test_right_product.test_product" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_test_right_product_test_product - 2018.10.01 at 19h 33m 17s.xml">
-      <configuration name="py.test for test_right_product.test_product" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_test_right_product_test_product - 2018.10.01 at 19h 34m 00s.xml">
-      <configuration name="py.test for test_right_product.test_product" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_test_right_product_test_product - 2018.10.01 at 19h 36m 05s.xml">
-      <configuration name="py.test for test_right_product.test_product" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_test_right_product_test_product - 2018.10.01 at 19h 37m 06s.xml">
-      <configuration name="py.test for test_right_product.test_product" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_right_product_py - 2018.10.01 at 19h 38m 50s.xml">
+    <history-entry file="py_test_in_test_right_product_py - 2018.10.02 at 16h 13m 42s.xml">
       <configuration name="py.test in test_right_product.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_right_product_test_product - 2018.10.01 at 19h 41m 13s.xml">
-      <configuration name="py.test for test_right_product.test_product" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_test_right_product_test_product - 2018.10.01 at 19h 42m 58s.xml">
-      <configuration name="py.test for test_right_product.test_product" configurationId="tests" />
+    <history-entry file="py_test_in_test_right_product_py - 2018.10.02 at 16h 14m 12s.xml">
+      <configuration name="py.test in test_right_product.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -801,8 +803,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_right_product.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="78" column="66" selection-start-line="78" selection-start-column="66" selection-end-line="78" selection-end-column="66" />
+        <state relative-caret-position="408">
+          <caret line="114" column="15" lean-forward="true" selection-start-line="114" selection-start-column="15" selection-end-line="114" selection-end-column="15" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
