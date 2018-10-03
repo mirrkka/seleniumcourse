@@ -23,49 +23,101 @@ def test_sorted_countries(driver):
     login(driver)
     driver.find_element_by_xpath("//span[text()='Countries']").click()
     country_list = []
-    zones = []
+    notzero=[]
     rows = driver.find_elements_by_xpath(".//table[@class='dataTable']//tr[@class='row']")
     for elements in rows:
         column = elements.find_elements_by_tag_name("td")
         country_list.append(column[4].text)
-        zones.append(column[5].text)
         if int(column[5].text) > 0:
-            driver.find_element_by_xpath("//tr[@class='row']//td[5]").click()
-            alphabet_zones=[]
-            rowsID = driver.find_elements_by_xpath(".//table[@class='dataTable']//tr[2]")
-            for j in rowsID:
-                columns = j.find_elements_by_tag_name("td")
-                alphabet_zones.append(columns[3].get_attribute('value'))
-                sorted_alphabet_zones = sorted(alphabet_zones)
-                assert alphabet_zones == sorted_alphabet_zones
+            notzero.append(column[4].find_element_by_tag_name("a").get_attribute("href"))
 
 
     sorted_countries = sorted(country_list)
     assert sorted_countries == country_list
 
+    for country_link in notzero:
+        driver.get(country_link)
+        zones = []
+        row = driver.find_elements_by_css_selector("table#table-zones tr:not([class=header])")
+        for element in row:
+            column = element.find_elements_by_tag_name("td")
+            zones.append(column[2].text)
+        zones.pop()
+
+        print(zones)
+
+        sorted_zones = sorted(zones)
+        assert sorted_zones == zones
+
+        driver.back()
+
+
 #2) на странице http://localhost/litecart/admin/?app=geo_zones&doc=geo_zones
 #зайти в каждую из стран и проверить, что зоны расположены в алфавитном порядке
 
-def test_sorted_geo_zones(driver):
+def test_geozones(driver):
     login(driver)
     driver.find_element_by_xpath("//span[text()='Geo Zones']").click()
-    geolinks=[]
-    geo = driver.find_elements_by_xpath(".//*[@id='content']/form/table/tbody/tr[@class='row']/td [not(contains (@style,'text'))]/a")
-    for zone in geo:
-        print(zone.get_attribute('href'))
-        geolinks.append(zone.get_attribute('href')) # запоминаем ссылки в массив, чтобы при переключении и обновлении не протухали ссылки
-        print(geolinks)
+    geozones = []
+    links = driver.find_elements_by_xpath(".//*[@id='content']/form/table/tbody/tr[@class='row']/td [not(contains (@style,'text'))]/a")
+    for link in links:
+        print(link.get_attribute('href'))
+        geozones.append(link.get_attribute('href'))
+    print(geozones)
 
-    for i in range(len(geolinks)):
-        geozones=[]
-        driver.get(geolinks[i])
-        zones = driver.find_elements_by_xpath(".//table[@class='dataTable']//tr[2]")
-        for k in zones:
-            selected_zones = k.find_elements_by_tag_name("td")
-            geozones.append(selected_zones[3].get_attribute('value'))
-            sorted_geozones = sorted(geozones)
-            assert geozones == sorted_geozones
+    for i in geozones:
+        driver.get(i)
+        zones1 = []
+        selects = driver.find_elements_by_xpath(".//*[@id='table-zones']/tbody/tr/td/select[starts-with(@name,'zones[') and not(contains (@aria-hidden,'true'))]/option[@selected='selected']")
+        for things in selects:
+            zones1.append(things.get_attribute("textContent"))
 
+        print(zones1)
+        sorted_zones = sorted(zones1)
+        assert sorted_zones == zones1
+        driver.back()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#2) на странице http://localhost/litecart/admin/?app=geo_zones&doc=geo_zones
+#зайти в каждую из стран и проверить, что зоны расположены в алфавитном порядке
+
+#def test_sorted_geo_zones(driver):
+#    login(driver)
+#    driver.find_element_by_xpath("//span[text()='Geo Zones']").click()
+#    geolinks=[]
+#    geo = driver.find_elements_by_xpath(".//*[@id='content']/form/table/tbody/tr[@class='row']/td [not(contains (@style,'text'))]/a")
+#    for zone in geo:
+#        print(zone.get_attribute('href'))
+#        geolinks.append(zone.get_attribute('href')) # запоминаем ссылки в массив, чтобы при переключении и обновлении не протухали ссылки
+#        print(geolinks)
+#
+#    for i in range(len(geolinks)):
+#        geozones=[]
+#        driver.get(geolinks[i])
+#        zones = driver.find_elements_by_xpath(".//table[@class='dataTable']//tr[2]")
+#        for k in zones:
+#            selected_zones = k.find_elements_by_tag_name("td")
+#            geozones.append(selected_zones[3].get_attribute('value'))
+#            sorted_geozones = sorted(geozones)
+#            assert geozones == sorted_geozones
+#
 
 
 
