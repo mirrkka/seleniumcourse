@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88e45fda-631d-4adc-85a4-1597be78796e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/test_new_costumer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_countries_sorted.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_countries_sorted.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_new_costumer.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_new_costumer.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -84,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_countries_sorted.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_countries_sorted.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_countries_sorted.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="67" column="22" lean-forward="true" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+            <state relative-caret-position="476">
+              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
               <folding>
                 <element signature="e#551#564#0" expanded="true" />
               </folding>
@@ -96,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_new_costumer.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test_new_costumer.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_new_costumer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="32" column="50" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="32" selection-end-column="50" />
+            <state relative-caret-position="374">
+              <caret line="79" column="55" selection-start-line="79" selection-start-column="55" selection-end-line="79" selection-end-column="55" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -157,8 +155,8 @@
         <option value="$PROJECT_DIR$/firefox_nightly.py" />
         <option value="$PROJECT_DIR$/test_right_product.py" />
         <option value="$PROJECT_DIR$/test_sorted_countries_and_zones.py" />
-        <option value="$PROJECT_DIR$/test_new_costumer.py" />
         <option value="$PROJECT_DIR$/test_countries_sorted.py" />
+        <option value="$PROJECT_DIR$/test_new_costumer.py" />
       </list>
     </option>
   </component>
@@ -212,7 +210,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in test_countries_sorted.py">
+  <component name="RunManager" selected="Python tests.py.test for test_new_costumer.test_new_costumer">
     <configuration name="py.test for test_countries_sorted.test_geozones" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="seleniumcourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -269,7 +267,7 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/test_countries_sorted.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration name="py.test in test_h1.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="py.test in test_new_costumer.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="seleniumcourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -280,23 +278,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_h1.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_new_costumer.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
       <item itemvalue="Python tests.py.test for test_countries_sorted.test_sorted_countries" />
-      <item itemvalue="Python tests.py.test in test_h1.py" />
       <item itemvalue="Python tests.py.test in test_countries_sorted.py" />
       <item itemvalue="Python tests.py.test for test_new_costumer.test_new_costumer" />
       <item itemvalue="Python tests.py.test for test_countries_sorted.test_geozones" />
+      <item itemvalue="Python tests.py.test in test_new_costumer.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.py.test for test_new_costumer.test_new_costumer" />
+        <item itemvalue="Python tests.py.test in test_new_costumer.py" />
         <item itemvalue="Python tests.py.test in test_countries_sorted.py" />
         <item itemvalue="Python tests.py.test for test_countries_sorted.test_sorted_countries" />
         <item itemvalue="Python tests.py.test for test_countries_sorted.test_geozones" />
-        <item itemvalue="Python tests.py.test in test_h1.py" />
-        <item itemvalue="Python tests.py.test for test_new_costumer.test_new_costumer" />
       </list>
     </recent_temporary>
   </component>
@@ -314,35 +312,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_for_test_countries_sorted_test_geozones - 2018.10.03 at 14h 36m 17s.xml">
-      <configuration name="py.test for test_countries_sorted.test_geozones" configurationId="tests" />
+    <history-entry file="py_test_for_test_new_costumer_test_new_costumer - 2018.10.03 at 15h 47m 08s.xml">
+      <configuration name="py.test for test_new_costumer.test_new_costumer" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_countries_sorted_test_geozones - 2018.10.03 at 14h 36m 45s.xml">
-      <configuration name="py.test for test_countries_sorted.test_geozones" configurationId="tests" />
+    <history-entry file="py_test_for_test_new_costumer_test_new_costumer - 2018.10.03 at 15h 50m 26s.xml">
+      <configuration name="py.test for test_new_costumer.test_new_costumer" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_countries_sorted_test_geozones - 2018.10.03 at 14h 41m 32s.xml">
-      <configuration name="py.test for test_countries_sorted.test_geozones" configurationId="tests" />
+    <history-entry file="py_test_for_test_new_costumer_test_new_costumer - 2018.10.03 at 15h 51m 21s.xml">
+      <configuration name="py.test for test_new_costumer.test_new_costumer" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_countries_sorted_test_geozones - 2018.10.03 at 14h 42m 39s.xml">
-      <configuration name="py.test for test_countries_sorted.test_geozones" configurationId="tests" />
+    <history-entry file="py_test_in_test_new_costumer_py - 2018.10.03 at 15h 52m 06s.xml">
+      <configuration name="py.test in test_new_costumer.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_countries_sorted_test_geozones - 2018.10.03 at 14h 49m 09s.xml">
-      <configuration name="py.test for test_countries_sorted.test_geozones" configurationId="tests" />
+    <history-entry file="py_test_for_test_new_costumer_test_new_costumer - 2018.10.03 at 15h 52m 49s.xml">
+      <configuration name="py.test for test_new_costumer.test_new_costumer" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_countries_sorted_py - 2018.10.03 at 14h 50m 36s.xml">
-      <configuration name="py.test in test_countries_sorted.py" configurationId="tests" />
+    <history-entry file="py_test_for_test_new_costumer_test_new_costumer - 2018.10.03 at 15h 54m 19s.xml">
+      <configuration name="py.test for test_new_costumer.test_new_costumer" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_countries_sorted_test_geozones - 2018.10.03 at 14h 59m 15s.xml">
-      <configuration name="py.test for test_countries_sorted.test_geozones" configurationId="tests" />
+    <history-entry file="py_test_in_test_new_costumer_py - 2018.10.03 at 15h 55m 33s.xml">
+      <configuration name="py.test in test_new_costumer.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_countries_sorted_test_geozones - 2018.10.03 at 14h 59m 38s.xml">
-      <configuration name="py.test for test_countries_sorted.test_geozones" configurationId="tests" />
+    <history-entry file="py_test_for_test_new_costumer_test_new_costumer - 2018.10.03 at 15h 56m 16s.xml">
+      <configuration name="py.test for test_new_costumer.test_new_costumer" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_countries_sorted_test_geozones - 2018.10.03 at 15h 00m 23s.xml">
-      <configuration name="py.test for test_countries_sorted.test_geozones" configurationId="tests" />
+    <history-entry file="py_test_for_test_new_costumer_test_new_costumer - 2018.10.03 at 15h 57m 59s.xml">
+      <configuration name="py.test for test_new_costumer.test_new_costumer" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_countries_sorted_test_geozones - 2018.10.03 at 15h 01m 35s.xml">
-      <configuration name="py.test for test_countries_sorted.test_geozones" configurationId="tests" />
+    <history-entry file="py_test_for_test_new_costumer_test_new_costumer - 2018.10.03 at 15h 58m 43s.xml">
+      <configuration name="py.test for test_new_costumer.test_new_costumer" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -815,22 +813,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_new_costumer.py">
+    <entry file="file://$PROJECT_DIR$/test_countries_sorted.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="32" column="50" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="32" selection-end-column="50" />
+        <state relative-caret-position="476">
+          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#551#564#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_countries_sorted.py">
+    <entry file="file://$PROJECT_DIR$/test_new_costumer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="67" column="22" lean-forward="true" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+        <state relative-caret-position="374">
+          <caret line="79" column="55" selection-start-line="79" selection-start-column="55" selection-end-line="79" selection-end-column="55" />
           <folding>
-            <element signature="e#551#564#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
