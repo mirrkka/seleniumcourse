@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88e45fda-631d-4adc-85a4-1597be78796e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/test_new_costumer.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_new_costumer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_add_product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,22 +17,10 @@
       <file leaf-file-name="python_example.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python_example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="113" />
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="15" selection-end-column="14" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="driver_fixture.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/driver_fixture.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,8 +74,8 @@
       <file leaf-file-name="test_countries_sorted.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_countries_sorted.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+            <state relative-caret-position="170">
+              <caret line="28" column="57" lean-forward="true" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
               <folding>
                 <element signature="e#551#564#0" expanded="true" />
               </folding>
@@ -94,11 +83,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_new_costumer.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_new_costumer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_new_costumer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="79" column="55" selection-start-line="79" selection-start-column="55" selection-end-line="79" selection-end-column="55" />
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_right_product.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_right_product.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-646">
+              <caret line="7" column="76" lean-forward="true" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_add_product.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_add_product.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -111,18 +121,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
               <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_right_product.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_right_product.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1887">
-              <caret line="111" column="71" selection-start-line="111" selection-start-column="71" selection-end-line="111" selection-end-column="71" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -157,6 +155,8 @@
         <option value="$PROJECT_DIR$/test_sorted_countries_and_zones.py" />
         <option value="$PROJECT_DIR$/test_countries_sorted.py" />
         <option value="$PROJECT_DIR$/test_new_costumer.py" />
+        <option value="$PROJECT_DIR$/test_add_new_product.py" />
+        <option value="$PROJECT_DIR$/test_add_product.py" />
       </list>
     </option>
   </component>
@@ -210,8 +210,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test for test_new_costumer.test_new_costumer">
-    <configuration name="py.test for test_countries_sorted.test_geozones" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.py.test for test_add_product.test_add_new_product">
+    <configuration name="py.test for test_add_product.test_add_new_product" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="seleniumcourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -222,21 +222,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_countries_sorted.test_geozones&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
-    <configuration name="py.test for test_countries_sorted.test_sorted_countries" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="seleniumcourse" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_countries_sorted.test_sorted_countries&quot;" />
+      <option name="_new_target" value="&quot;test_add_product.test_add_new_product&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration name="py.test for test_new_costumer.test_new_costumer" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -253,6 +239,34 @@
       <option name="_new_target" value="&quot;test_new_costumer.test_new_costumer&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
+    <configuration name="py.test in test_add_new_product.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="seleniumcourse" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_add_new_product.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration name="py.test in test_add_product.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="seleniumcourse" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_add_product.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
     <configuration name="py.test in test_countries_sorted.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="seleniumcourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -267,34 +281,20 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/test_countries_sorted.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration name="py.test in test_new_costumer.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="seleniumcourse" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_new_costumer.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
     <list>
-      <item itemvalue="Python tests.py.test for test_countries_sorted.test_sorted_countries" />
       <item itemvalue="Python tests.py.test in test_countries_sorted.py" />
       <item itemvalue="Python tests.py.test for test_new_costumer.test_new_costumer" />
-      <item itemvalue="Python tests.py.test for test_countries_sorted.test_geozones" />
-      <item itemvalue="Python tests.py.test in test_new_costumer.py" />
+      <item itemvalue="Python tests.py.test in test_add_new_product.py" />
+      <item itemvalue="Python tests.py.test for test_add_product.test_add_new_product" />
+      <item itemvalue="Python tests.py.test in test_add_product.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.py.test for test_new_costumer.test_new_costumer" />
-        <item itemvalue="Python tests.py.test in test_new_costumer.py" />
+        <item itemvalue="Python tests.py.test for test_add_product.test_add_new_product" />
+        <item itemvalue="Python tests.py.test in test_add_product.py" />
+        <item itemvalue="Python tests.py.test in test_add_new_product.py" />
         <item itemvalue="Python tests.py.test in test_countries_sorted.py" />
-        <item itemvalue="Python tests.py.test for test_countries_sorted.test_sorted_countries" />
-        <item itemvalue="Python tests.py.test for test_countries_sorted.test_geozones" />
+        <item itemvalue="Python tests.py.test for test_new_costumer.test_new_costumer" />
       </list>
     </recent_temporary>
   </component>
@@ -312,35 +312,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_for_test_new_costumer_test_new_costumer - 2018.10.03 at 15h 47m 08s.xml">
-      <configuration name="py.test for test_new_costumer.test_new_costumer" configurationId="tests" />
+    <history-entry file="py_test_for_test_add_product_test_add_new_product - 2018.10.04 at 15h 11m 34s.xml">
+      <configuration name="py.test for test_add_product.test_add_new_product" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_new_costumer_test_new_costumer - 2018.10.03 at 15h 50m 26s.xml">
-      <configuration name="py.test for test_new_costumer.test_new_costumer" configurationId="tests" />
+    <history-entry file="py_test_for_test_add_product_test_add_new_product - 2018.10.04 at 15h 12m 44s.xml">
+      <configuration name="py.test for test_add_product.test_add_new_product" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_new_costumer_test_new_costumer - 2018.10.03 at 15h 51m 21s.xml">
-      <configuration name="py.test for test_new_costumer.test_new_costumer" configurationId="tests" />
+    <history-entry file="py_test_for_test_add_product_test_add_new_product - 2018.10.04 at 15h 15m 41s.xml">
+      <configuration name="py.test for test_add_product.test_add_new_product" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_new_costumer_py - 2018.10.03 at 15h 52m 06s.xml">
-      <configuration name="py.test in test_new_costumer.py" configurationId="tests" />
+    <history-entry file="py_test_for_test_add_product_test_add_new_product - 2018.10.04 at 15h 16m 34s.xml">
+      <configuration name="py.test for test_add_product.test_add_new_product" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_new_costumer_test_new_costumer - 2018.10.03 at 15h 52m 49s.xml">
-      <configuration name="py.test for test_new_costumer.test_new_costumer" configurationId="tests" />
+    <history-entry file="py_test_for_test_add_product_test_add_new_product - 2018.10.04 at 15h 17m 54s.xml">
+      <configuration name="py.test for test_add_product.test_add_new_product" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_new_costumer_test_new_costumer - 2018.10.03 at 15h 54m 19s.xml">
-      <configuration name="py.test for test_new_costumer.test_new_costumer" configurationId="tests" />
+    <history-entry file="py_test_for_test_add_product_test_add_new_product - 2018.10.04 at 15h 19m 32s.xml">
+      <configuration name="py.test for test_add_product.test_add_new_product" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_new_costumer_py - 2018.10.03 at 15h 55m 33s.xml">
-      <configuration name="py.test in test_new_costumer.py" configurationId="tests" />
+    <history-entry file="py_test_for_test_add_product_test_add_new_product - 2018.10.04 at 15h 20m 38s.xml">
+      <configuration name="py.test for test_add_product.test_add_new_product" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_new_costumer_test_new_costumer - 2018.10.03 at 15h 56m 16s.xml">
-      <configuration name="py.test for test_new_costumer.test_new_costumer" configurationId="tests" />
+    <history-entry file="py_test_for_test_add_product_test_add_new_product - 2018.10.04 at 15h 21m 31s.xml">
+      <configuration name="py.test for test_add_product.test_add_new_product" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_new_costumer_test_new_costumer - 2018.10.03 at 15h 57m 59s.xml">
-      <configuration name="py.test for test_new_costumer.test_new_costumer" configurationId="tests" />
+    <history-entry file="py_test_for_test_add_product_test_add_new_product - 2018.10.04 at 15h 23m 26s.xml">
+      <configuration name="py.test for test_add_product.test_add_new_product" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_new_costumer_test_new_costumer - 2018.10.03 at 15h 58m 43s.xml">
-      <configuration name="py.test for test_new_costumer.test_new_costumer" configurationId="tests" />
+    <history-entry file="py_test_for_test_add_product_test_add_new_product - 2018.10.04 at 15h 24m 07s.xml">
+      <configuration name="py.test for test_add_product.test_add_new_product" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -352,7 +352,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32972974" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37513512" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45945945" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32972974" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -726,30 +726,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_right_product.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1887">
-          <caret line="111" column="71" selection-start-line="111" selection-start-column="71" selection-end-line="111" selection-end-column="71" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_sorted_countries_and_zones.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="529">
           <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="113" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -762,16 +742,6 @@
           <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/litecart.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -813,20 +783,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_countries_sorted.py">
+    <entry file="file://$PROJECT_DIR$/litecart.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
-            <element signature="e#551#564#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="15" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_add_new_product.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_right_product.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-646">
+          <caret line="7" column="76" lean-forward="true" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_new_costumer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="79" column="55" selection-start-line="79" selection-start-column="55" selection-end-line="79" selection-end-column="55" />
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_countries_sorted.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="28" column="57" lean-forward="true" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
+          <folding>
+            <element signature="e#551#564#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_add_product.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
