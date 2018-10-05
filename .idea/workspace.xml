@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88e45fda-631d-4adc-85a4-1597be78796e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/test_add_product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_three_items_to_the_cart.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,18 +50,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="firefox.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/firefox.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="firefox_nightly.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/firefox_nightly.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -74,8 +62,8 @@
       <file leaf-file-name="test_countries_sorted.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_countries_sorted.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="28" column="57" lean-forward="true" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
+            <state relative-caret-position="1088">
+              <caret line="67" column="21" lean-forward="true" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
               <folding>
                 <element signature="e#551#564#0" expanded="true" />
               </folding>
@@ -86,8 +74,23 @@
       <file leaf-file-name="test_new_costumer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_new_costumer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="48" />
+            <state relative-caret-position="323">
+              <caret line="79" column="4" lean-forward="true" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="67" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_three_items_to_the_cart.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_three_items_to_the_cart.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,7 +98,7 @@
       <file leaf-file-name="test_right_product.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_right_product.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-646">
+            <state relative-caret-position="119">
               <caret line="7" column="76" lean-forward="true" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -104,11 +107,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_add_product.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_add_product.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_add_product.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
+            <state relative-caret-position="1853">
+              <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -157,6 +160,7 @@
         <option value="$PROJECT_DIR$/test_new_costumer.py" />
         <option value="$PROJECT_DIR$/test_add_new_product.py" />
         <option value="$PROJECT_DIR$/test_add_product.py" />
+        <option value="$PROJECT_DIR$/test_three_items_to_the_cart.py" />
       </list>
     </option>
   </component>
@@ -210,8 +214,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test for test_add_product.test_add_new_product">
-    <configuration name="py.test for test_add_product.test_add_new_product" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.py.test for test_three_items_to_the_cart.test_three_items">
+    <configuration name="py.test for test_countries_sorted.test_geozones" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="seleniumcourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -222,10 +226,10 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_add_product.test_add_new_product&quot;" />
+      <option name="_new_target" value="&quot;test_countries_sorted.test_geozones&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="py.test for test_new_costumer.test_new_costumer" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="py.test for test_three_items_to_the_cart.test_add_and_delete" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="seleniumcourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -236,10 +240,10 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_new_costumer.test_new_costumer&quot;" />
+      <option name="_new_target" value="&quot;test_three_items_to_the_cart.test_add_and_delete&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="py.test in test_add_new_product.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="py.test for test_three_items_to_the_cart.test_three_items" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="seleniumcourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -250,10 +254,10 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_add_new_product.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_three_items_to_the_cart.test_three_items&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="py.test in test_add_product.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="py.test for test_three_items_to_the_cart.test_three_items_three_times" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="seleniumcourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -264,10 +268,10 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_add_product.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_three_items_to_the_cart.test_three_items_three_times&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="py.test in test_countries_sorted.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="py.test in test_three_items_to_the_cart.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="seleniumcourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -278,23 +282,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_countries_sorted.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_three_items_to_the_cart.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.py.test in test_countries_sorted.py" />
-      <item itemvalue="Python tests.py.test for test_new_costumer.test_new_costumer" />
-      <item itemvalue="Python tests.py.test in test_add_new_product.py" />
-      <item itemvalue="Python tests.py.test for test_add_product.test_add_new_product" />
-      <item itemvalue="Python tests.py.test in test_add_product.py" />
+      <item itemvalue="Python tests.py.test for test_countries_sorted.test_geozones" />
+      <item itemvalue="Python tests.py.test in test_three_items_to_the_cart.py" />
+      <item itemvalue="Python tests.py.test for test_three_items_to_the_cart.test_three_items" />
+      <item itemvalue="Python tests.py.test for test_three_items_to_the_cart.test_three_items_three_times" />
+      <item itemvalue="Python tests.py.test for test_three_items_to_the_cart.test_add_and_delete" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.py.test for test_add_product.test_add_new_product" />
-        <item itemvalue="Python tests.py.test in test_add_product.py" />
-        <item itemvalue="Python tests.py.test in test_add_new_product.py" />
-        <item itemvalue="Python tests.py.test in test_countries_sorted.py" />
-        <item itemvalue="Python tests.py.test for test_new_costumer.test_new_costumer" />
+        <item itemvalue="Python tests.py.test for test_three_items_to_the_cart.test_three_items" />
+        <item itemvalue="Python tests.py.test in test_three_items_to_the_cart.py" />
+        <item itemvalue="Python tests.py.test for test_three_items_to_the_cart.test_add_and_delete" />
+        <item itemvalue="Python tests.py.test for test_three_items_to_the_cart.test_three_items_three_times" />
+        <item itemvalue="Python tests.py.test for test_countries_sorted.test_geozones" />
       </list>
     </recent_temporary>
   </component>
@@ -312,35 +316,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_for_test_add_product_test_add_new_product - 2018.10.04 at 15h 11m 34s.xml">
-      <configuration name="py.test for test_add_product.test_add_new_product" configurationId="tests" />
+    <history-entry file="py_test_for_test_three_items_to_the_cart_test_three_items_three_times - 2018.10.05 at 15h 15m 01s.xml">
+      <configuration name="py.test for test_three_items_to_the_cart.test_three_items_three_times" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_add_product_test_add_new_product - 2018.10.04 at 15h 12m 44s.xml">
-      <configuration name="py.test for test_add_product.test_add_new_product" configurationId="tests" />
+    <history-entry file="py_test_for_test_three_items_to_the_cart_test_three_items_three_times - 2018.10.05 at 15h 16m 28s.xml">
+      <configuration name="py.test for test_three_items_to_the_cart.test_three_items_three_times" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_add_product_test_add_new_product - 2018.10.04 at 15h 15m 41s.xml">
-      <configuration name="py.test for test_add_product.test_add_new_product" configurationId="tests" />
+    <history-entry file="py_test_for_test_three_items_to_the_cart_test_three_items_three_times - 2018.10.05 at 15h 17m 44s.xml">
+      <configuration name="py.test for test_three_items_to_the_cart.test_three_items_three_times" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_add_product_test_add_new_product - 2018.10.04 at 15h 16m 34s.xml">
-      <configuration name="py.test for test_add_product.test_add_new_product" configurationId="tests" />
+    <history-entry file="py_test_for_test_three_items_to_the_cart_test_three_items_three_times - 2018.10.05 at 15h 21m 48s.xml">
+      <configuration name="py.test for test_three_items_to_the_cart.test_three_items_three_times" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_add_product_test_add_new_product - 2018.10.04 at 15h 17m 54s.xml">
-      <configuration name="py.test for test_add_product.test_add_new_product" configurationId="tests" />
+    <history-entry file="py_test_for_test_three_items_to_the_cart_test_three_items_three_times - 2018.10.05 at 15h 22m 18s.xml">
+      <configuration name="py.test for test_three_items_to_the_cart.test_three_items_three_times" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_add_product_test_add_new_product - 2018.10.04 at 15h 19m 32s.xml">
-      <configuration name="py.test for test_add_product.test_add_new_product" configurationId="tests" />
+    <history-entry file="py_test_for_test_three_items_to_the_cart_test_add_and_delete - 2018.10.05 at 15h 42m 06s.xml">
+      <configuration name="py.test for test_three_items_to_the_cart.test_add_and_delete" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_add_product_test_add_new_product - 2018.10.04 at 15h 20m 38s.xml">
-      <configuration name="py.test for test_add_product.test_add_new_product" configurationId="tests" />
+    <history-entry file="py_test_in_test_three_items_to_the_cart_py - 2018.10.05 at 15h 44m 05s.xml">
+      <configuration name="py.test in test_three_items_to_the_cart.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_add_product_test_add_new_product - 2018.10.04 at 15h 21m 31s.xml">
-      <configuration name="py.test for test_add_product.test_add_new_product" configurationId="tests" />
+    <history-entry file="py_test_for_test_three_items_to_the_cart_test_add_and_delete - 2018.10.05 at 15h 45m 30s.xml">
+      <configuration name="py.test for test_three_items_to_the_cart.test_add_and_delete" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_add_product_test_add_new_product - 2018.10.04 at 15h 23m 26s.xml">
-      <configuration name="py.test for test_add_product.test_add_new_product" configurationId="tests" />
+    <history-entry file="py_test_for_test_three_items_to_the_cart_test_add_and_delete - 2018.10.05 at 15h 47m 02s.xml">
+      <configuration name="py.test for test_three_items_to_the_cart.test_add_and_delete" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_add_product_test_add_new_product - 2018.10.04 at 15h 24m 07s.xml">
-      <configuration name="py.test for test_add_product.test_add_new_product" configurationId="tests" />
+    <history-entry file="py_test_in_test_three_items_to_the_cart_py - 2018.10.05 at 15h 49m 23s.xml">
+      <configuration name="py.test in test_three_items_to_the_cart.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -370,16 +374,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/python_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="113" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/driver_fixture.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -746,49 +740,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/firefox_nightly.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/firefox.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_h1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_sticker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/litecart.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -813,10 +770,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/firefox_nightly.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_countries_sorted.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="67" column="21" lean-forward="true" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+          <folding>
+            <element signature="e#551#564#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/litecart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test_right_product.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-646">
+        <state relative-caret-position="119">
           <caret line="7" column="76" lean-forward="true" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_add_product.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1853">
+          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_h1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_sticker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -825,25 +839,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_new_costumer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_countries_sorted.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="28" column="57" lean-forward="true" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
+        <state relative-caret-position="323">
+          <caret line="79" column="4" lean-forward="true" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="67" />
           <folding>
-            <element signature="e#551#564#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_add_product.py">
+    <entry file="file://$PROJECT_DIR$/test_three_items_to_the_cart.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
+        <state relative-caret-position="177">
+          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
