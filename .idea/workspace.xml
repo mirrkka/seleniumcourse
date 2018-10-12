@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88e45fda-631d-4adc-85a4-1597be78796e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/test_windows.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_example.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="python_example.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="python_example.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python_example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="87" column="31" lean-forward="true" selection-start-line="87" selection-start-column="31" selection-end-line="87" selection-end-column="31" />
+            <state relative-caret-position="393">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -81,7 +79,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_windows.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_windows.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_windows.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-85">
@@ -218,7 +216,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in test_windows.py">
+  <component name="RunManager" selected="Python.python_example">
+    <configuration name="python_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="seleniumcourse" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_example.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="py.test for python_example.test_ext_links" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="seleniumcourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -261,20 +277,6 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/python_example.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration name="py.test in test_three_items_to_the_cart.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="seleniumcourse" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_three_items_to_the_cart.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
     <configuration name="py.test in test_windows.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="seleniumcourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -290,19 +292,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.py.test in test_three_items_to_the_cart.py" />
       <item itemvalue="Python tests.py.test in test_windows.py" />
       <item itemvalue="Python tests.py.test for test_windows.test_about_windows" />
       <item itemvalue="Python tests.py.test in python_example.py" />
       <item itemvalue="Python tests.py.test for python_example.test_ext_links" />
+      <item itemvalue="Python.python_example" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.python_example" />
         <item itemvalue="Python tests.py.test in test_windows.py" />
         <item itemvalue="Python tests.py.test for python_example.test_ext_links" />
         <item itemvalue="Python tests.py.test in python_example.py" />
         <item itemvalue="Python tests.py.test for test_windows.test_about_windows" />
-        <item itemvalue="Python tests.py.test in test_three_items_to_the_cart.py" />
       </list>
     </recent_temporary>
   </component>
@@ -843,22 +845,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="87" column="31" lean-forward="true" selection-start-line="87" selection-start-column="31" selection-end-line="87" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_windows.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-85">
           <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="e#1#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
