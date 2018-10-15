@@ -8,19 +8,12 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from contextlib import contextmanager
 
+
 def login(driver):
     driver.get("http://localhost/litecart/admin/login.php")
     driver.find_element_by_xpath("//input[@name='username']").send_keys("admin")
     driver.find_element_by_xpath("//input[@name='password']").send_keys("admin")
     driver.find_element_by_xpath("//button[@name='login']").click()
-
-@contextmanager
-def wait_for_new_window(driver, timeout=10): #http://stackoverflow.com/questions/26641779/python-selenium-how-to-wait-for-new-window-opens
-    handles_before = driver.window_handles
-    yield
-    WebDriverWait(driver, timeout).until(
-        lambda driver: len(handles_before) != len(driver.window_handles))
-
 
 def test_about_windows(driver):
     login(driver)
@@ -35,9 +28,8 @@ def test_about_windows(driver):
     old_windows = driver.window_handles
     print(old_windows)
     for i in range (len(all_links)):
-        print(str(i))
-        with wait_for_new_window(driver, 10):
-            all_links[i].click()
+        all_links[i].click()
+        time.sleep(5)
 
         new_windows = driver.window_handles
         print(new_windows)
@@ -48,9 +40,6 @@ def test_about_windows(driver):
         driver.switch_to_window(new_window[0])
         driver.close()
         driver.switch_to_window(main_window)
-
-
-
 
 #main_window = driver.current_window_handle
 #old_windows = driver.window_handles
