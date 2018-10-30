@@ -25,6 +25,7 @@ def test_log(driver):
         product = driver.find_elements_by_xpath(".//*[@id='content']/form/table/tbody/tr/td[./img and ./a]/a")
         print(product[i].get_attribute('href'))
         product[i].click()
+        time.sleep(1)
         driver.back()
 
         logs = driver.get_log("browser")
@@ -35,7 +36,7 @@ def test_log(driver):
         if (len(logs)) == 0:
             print('no logs')
 
-            assert (len(logs)) == 0
+    assert (len(logs)) == 0
 
 
 
