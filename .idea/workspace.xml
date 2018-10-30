@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88e45fda-631d-4adc-85a4-1597be78796e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/test_sports.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_ivideon_login.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/litecart.py" beforeDir="false" afterPath="$PROJECT_DIR$/litecart.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_logs.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_logs.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,23 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_sticker.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_sticker.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="test_countries_sorted.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_countries_sorted.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="68" column="21" lean-forward="true" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
+            <state relative-caret-position="-323">
+              <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -52,8 +38,8 @@
       <file leaf-file-name="test_windows.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_windows.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-87">
-              <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+            <state relative-caret-position="646">
+              <caret line="41" column="44" lean-forward="true" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
               <folding>
                 <element signature="e#1#14#0" expanded="true" />
               </folding>
@@ -61,10 +47,43 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="test_new_costumer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_new_costumer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1071">
+              <caret line="63" column="4" lean-forward="true" selection-start-line="63" selection-start-column="4" selection-end-line="64" selection-end-column="79" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_ivideon_login.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_ivideon_login.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_three_items_to_the_cart.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_three_items_to_the_cart.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="7" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="test_right_product.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_right_product.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1258">
+            <state relative-caret-position="-1054">
               <caret line="7" column="76" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -76,7 +95,7 @@
       <file leaf-file-name="test_add_product.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_add_product.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="374">
               <caret line="100" column="25" lean-forward="true" selection-start-line="100" selection-start-column="25" selection-end-line="100" selection-end-column="25" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -85,19 +104,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="litecart.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/litecart.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="46" lean-forward="true" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_sports.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_sports.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_sports.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -116,18 +123,6 @@
               <caret lean-forward="true" selection-end-line="3" selection-end-column="28" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="driver_fixture.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/driver_fixture.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="120" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="120" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -171,6 +166,8 @@
         <option value="$PROJECT_DIR$/test_logs.py" />
         <option value="$PROJECT_DIR$/litecart.py" />
         <option value="$PROJECT_DIR$/test_sports.py" />
+        <option value="$PROJECT_DIR$/test_sports_login.py" />
+        <option value="$PROJECT_DIR$/test_ivideon_login.py" />
       </list>
     </option>
   </component>
@@ -224,26 +221,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test for test_sports.test_sport">
-    <configuration name="litecart" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="seleniumcourse" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/litecart.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="py.test for test_logs.test_log" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.py.test for test_ivideon_login.test_ivideon_login">
+    <configuration name="py.test for test_ivideon_login.test_ivideon_login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="seleniumcourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -254,7 +233,21 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_logs.test_log&quot;" />
+      <option name="_new_target" value="&quot;test_ivideon_login.test_ivideon_login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="py.test for test_sports_login.test_new_costumer" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="seleniumcourse" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_sports_login.test_new_costumer&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration name="py.test for test_sports.test_sport" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -271,7 +264,7 @@
       <option name="_new_target" value="&quot;test_sports.test_sport&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="py.test in test_logs.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="py.test in test_ivideon_login.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="seleniumcourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -282,10 +275,10 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_logs.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_ivideon_login.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration name="py.test in test_sports.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="py.test in test_sports_login.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="seleniumcourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -296,23 +289,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_sports.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_sports_login.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.py.test in test_logs.py" />
-      <item itemvalue="Python tests.py.test for test_logs.test_log" />
-      <item itemvalue="Python.litecart" />
-      <item itemvalue="Python tests.py.test in test_sports.py" />
       <item itemvalue="Python tests.py.test for test_sports.test_sport" />
+      <item itemvalue="Python tests.py.test in test_sports_login.py" />
+      <item itemvalue="Python tests.py.test for test_sports_login.test_new_costumer" />
+      <item itemvalue="Python tests.py.test for test_ivideon_login.test_ivideon_login" />
+      <item itemvalue="Python tests.py.test in test_ivideon_login.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.py.test for test_ivideon_login.test_ivideon_login" />
+        <item itemvalue="Python tests.py.test in test_ivideon_login.py" />
+        <item itemvalue="Python tests.py.test for test_sports_login.test_new_costumer" />
+        <item itemvalue="Python tests.py.test in test_sports_login.py" />
         <item itemvalue="Python tests.py.test for test_sports.test_sport" />
-        <item itemvalue="Python tests.py.test in test_sports.py" />
-        <item itemvalue="Python.litecart" />
-        <item itemvalue="Python tests.py.test for test_logs.test_log" />
-        <item itemvalue="Python tests.py.test in test_logs.py" />
       </list>
     </recent_temporary>
   </component>
@@ -330,35 +323,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_for_test_logs_test_log - 2018.10.19 at 11h 36m 31s.xml">
-      <configuration name="py.test for test_logs.test_log" configurationId="tests" />
+    <history-entry file="py_test_for_test_ivideon_login_test_ivideon_login - 2018.10.30 at 16h 49m 40s.xml">
+      <configuration name="py.test for test_ivideon_login.test_ivideon_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_logs_test_log - 2018.10.19 at 11h 36m 56s.xml">
-      <configuration name="py.test for test_logs.test_log" configurationId="tests" />
+    <history-entry file="py_test_in_test_ivideon_login_py - 2018.10.30 at 16h 55m 16s.xml">
+      <configuration name="py.test in test_ivideon_login.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_logs_test_log - 2018.10.19 at 11h 37m 18s.xml">
-      <configuration name="py.test for test_logs.test_log" configurationId="tests" />
+    <history-entry file="py_test_for_test_ivideon_login_test_ivideon_login - 2018.10.30 at 16h 59m 30s.xml">
+      <configuration name="py.test for test_ivideon_login.test_ivideon_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_sports_py - 2018.10.30 at 14h 57m 18s.xml">
-      <configuration name="py.test in test_sports.py" configurationId="tests" />
+    <history-entry file="py_test_for_test_ivideon_login_test_ivideon_login - 2018.10.30 at 17h 01m 22s.xml">
+      <configuration name="py.test for test_ivideon_login.test_ivideon_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_sports_test_sport - 2018.10.30 at 14h 58m 08s.xml">
-      <configuration name="py.test for test_sports.test_sport" configurationId="tests" />
+    <history-entry file="py_test_for_test_ivideon_login_test_ivideon_login - 2018.10.30 at 17h 03m 59s.xml">
+      <configuration name="py.test for test_ivideon_login.test_ivideon_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_sports_test_sport - 2018.10.30 at 14h 59m 08s.xml">
-      <configuration name="py.test for test_sports.test_sport" configurationId="tests" />
+    <history-entry file="py_test_for_test_ivideon_login_test_ivideon_login - 2018.10.30 at 17h 08m 48s.xml">
+      <configuration name="py.test for test_ivideon_login.test_ivideon_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_sports_test_sport - 2018.10.30 at 15h 03m 31s.xml">
-      <configuration name="py.test for test_sports.test_sport" configurationId="tests" />
+    <history-entry file="py_test_for_test_ivideon_login_test_ivideon_login - 2018.10.30 at 17h 09m 20s.xml">
+      <configuration name="py.test for test_ivideon_login.test_ivideon_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_sports_py - 2018.10.30 at 15h 06m 04s.xml">
-      <configuration name="py.test in test_sports.py" configurationId="tests" />
+    <history-entry file="py_test_for_test_ivideon_login_test_ivideon_login - 2018.10.30 at 17h 10m 06s.xml">
+      <configuration name="py.test for test_ivideon_login.test_ivideon_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_sports_test_sport - 2018.10.30 at 15h 18m 49s.xml">
-      <configuration name="py.test for test_sports.test_sport" configurationId="tests" />
+    <history-entry file="py_test_for_test_ivideon_login_test_ivideon_login - 2018.10.30 at 17h 13m 20s.xml">
+      <configuration name="py.test for test_ivideon_login.test_ivideon_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_sports_test_sport - 2018.10.30 at 15h 21m 26s.xml">
-      <configuration name="py.test for test_sports.test_sport" configurationId="tests" />
+    <history-entry file="py_test_for_test_ivideon_login_test_ivideon_login - 2018.10.30 at 17h 14m 19s.xml">
+      <configuration name="py.test for test_ivideon_login.test_ivideon_login" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -394,23 +387,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/IE_driver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/litecart.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python_example.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -701,23 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_new_costumer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_three_items_to_the_cart.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_logs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -748,16 +707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_sticker.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -768,40 +717,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_windows.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-87">
-          <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-          <folding>
-            <element signature="e#1#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/litecart.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="32" column="46" lean-forward="true" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_right_product.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1258">
-          <caret line="7" column="76" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_add_product.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="100" column="25" lean-forward="true" selection-start-line="100" selection-start-column="25" selection-end-line="100" selection-end-column="25" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -818,10 +737,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_countries_sorted.py">
+    <entry file="file://$PROJECT_DIR$/test_add_product.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="68" column="21" lean-forward="true" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
+        <state relative-caret-position="374">
+          <caret line="100" column="25" lean-forward="true" selection-start-line="100" selection-start-column="25" selection-end-line="100" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -829,6 +751,80 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_sports_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="36" column="73" lean-forward="true" selection-start-line="36" selection-start-column="73" selection-end-line="36" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_right_product.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1054">
+          <caret line="7" column="76" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_new_costumer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" column="4" lean-forward="true" selection-start-line="63" selection-start-column="4" selection-end-line="64" selection-end-column="79" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_windows.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="41" column="44" lean-forward="true" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
+          <folding>
+            <element signature="e#1#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_countries_sorted.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-323">
+          <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_three_items_to_the_cart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_ivideon_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
